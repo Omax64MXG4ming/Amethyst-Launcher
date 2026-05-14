@@ -1,87 +1,26 @@
-<h1 align="center">PojavLauncher</h1>
+<h1 align="center">Amethyst Launcher</h1>
 
-<img src="https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="130" height="150" alt="PojavLauncher logo">
+<img src="https://amethyst.x10.mx/item.png" align="left" width="130" height="150" alt="PojavLauncher logo">
 
-[![Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/workflows/Android%20CI/badge.svg)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/PojavLauncherTeam/PojavLauncher)](https://github.com/PojavLauncherTeam/PojavLauncher/actions)
-[![Crowdin](https://badges.crowdin.net/pojavlauncher/localized.svg)](https://crowdin.com/project/pojavlauncher)
-[![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.com/invite/aenk3EUvER)
-[![Twitter Follow](https://img.shields.io/twitter/follow/plaunchteam?color=blue&style=flat-square)](https://twitter.com/PLaunchTeam)
-
-*From [Boardwalk](https://github.com/zhuowei/Boardwalk)'s ashes here comes PojavLauncher!*
-
-PojavLauncher is a launcher that allows you to play Minecraft: Java Edition on your Android and [iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS) devices.
-
-For more details, check out our [wiki](https://pojavlauncher.app/)!
+[![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7e9Uq5Fj8a)
 
 ## Important Notes
 
-**PojavLauncher has been discontinued** and is no longer supported. Its successor is available [here](https://github.com/AngelAuraMC/Amethyst-Android).
+**PojavLauncher has been discontinued** and is no longer supported. Its successor is available. here
 
-## Table of Contents
-
-* [Introduction](#introduction)
-* [Getting PojavLauncher](#getting-pojavlauncher)
-* [Building](#building)
-    * [Quick Build (Recommended)](#quick-build-recommended)
-    * [Detailed Build](#detailed-build)
-* [Current Status](#current-status)
-* [Known Issues](#known-issues)
-* [FAQ](#faq)
-* [Contributing](#contributing)
-* [Support](#support)
-* [License](#license)
-* [Credits & Dependencies](#credits--dependencies)
-* [Roadmap](#roadmap)
 
 ## Introduction
 
-* PojavLauncher is a Minecraft: Java Edition launcher for Android and iOS based on [Boardwalk](https://github.com/zhuowei/Boardwalk)
-* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 1.21 snapshots (including Combat Test versions)
+* Amethyst Launcher is a Minecraft: Java Edition launcher for Android based on [Boardwalk](https://github.com/zhuowei/Boardwalk)
+* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to +1.21 snapshots (including Combat Test versions)
 * Modding via Forge and Fabric are also supported.
-* This repository contains source code for Android. For iOS/iPadOS, check out [PojavLauncher_iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS).
+* This repository contains source code for Android.
 
-## Getting PojavLauncher
+## Getting Amethyst
 
-You can get PojavLauncher via three methods:
+You can get it via three methods:
 
-1. **Releases:** Download the prebuilt app from our [stable releases](https://github.com/PojavLauncherTeam/PojavLauncher/releases) or [automatic builds](https://github.com/PojavLauncherTeam/PojavLauncher/actions).
-2. **Google Play:** Get it from Google Play by clicking on this badge: [![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
-3. **Build from Source:** Follow the [building instructions](#building) below.
-
-## Building
-
-### Quick Build (Recommended)
-
-The easiest way to build PojavLauncher is to use the pre-built JREs provided by our CI.
-
-1. Clone the repository: `git clone https://github.com/PojavLauncherTeam/PojavLauncher.git`
-2. Build the launcher: `./gradlew :app_pojavlauncher:assembleDebug` (Use `gradlew.bat` on Windows)
-
-The built APK will be located in `app_pojavlauncher/build/outputs/apk/debug/`.
-
-### Detailed Build
-
-If you need more control over the build process, follow these steps:
-
-1. **Java Runtime Environment (JRE):** Download the `jre8-pojav` artifact from our [CI auto builds](https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch/actions).  This package contains pre-built JREs for all supported architectures.  If you need to build the JRE yourself, follow the instructions in the [android-openjdk-build-multiarch](https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch) repository.
-
-2. **LWJGL:** The build instructions for the custom LWJGL are available over the [LWJGL repository](https://github.com/PojavLauncherTeam/lwjgl3).
-
-3. **Language List:** Because languages are auto-added by Crowdin, you need to run the language list generator before building. In the project directory, run:
-   * Linux/macOS:
-     ```bash
-     chmod +x scripts/languagelist_updater.sh
-     bash scripts/languagelist_updater.sh
-     ```
-   * Windows:
-     ```batch
-     scripts\languagelist_updater.bat
-     ```
-
-4. **Build GLFW stub:** `./gradlew :jre_lwjgl3glfw:build`
-
-5. **Build the launcher:** `./gradlew :app_pojavlauncher:assembleDebug` (Replace `gradlew` with `gradlew.bat` on Windows).
+1. **Releases:** Download the prebuilt app from our [stable releases](https://github.com/Omax64MXG4ming/Amethyst-Launcher/releases)
 
 ## Current Status
 
