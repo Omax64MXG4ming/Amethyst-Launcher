@@ -2,8 +2,6 @@
 
 <img src="https://amethyst.x10.mx/item.png" align="left" width="130" height="150" alt="PojavLauncher logo">
 
-[![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/7e9Uq5Fj8a)
-
 ## Important Notes
 
 **PojavLauncher has been discontinued** and is no longer supported. Its successor is available. here
@@ -12,7 +10,7 @@
 ## Introduction
 
 * Amethyst Launcher is a Minecraft: Java Edition launcher for Android based on [Boardwalk](https://github.com/zhuowei/Boardwalk)
-* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to +1.21 snapshots (including Combat Test versions)
+* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to +1.21 snapshots or vanilla (including Combat Test versions)
 * Modding via Forge and Fabric are also supported.
 * This repository contains source code for Android.
 
@@ -37,25 +35,16 @@ You can get it via three methods:
 * [x] Game surface zooming
 * [x] New input pipe rewritten to native code
 * [x] Rewritten entire controls system
+* [x] Optimization Options 
 * [ ] More to come!
 
 ## Known Issues
 
-See our [issue tracker](https://github.com/PojavLauncherTeam/PojavLauncher/issues) for a list of known issues and their current status.
-
-## FAQ
-
-See our [wiki](https://pojavlauncherteam.github.io/) for more information.
-
-## Contributing
-
-Contributions are welcome! We welcome any type of contribution, not only code. For example, you can help improve the [wiki](https://pojavlauncherteam.github.io/), contribute to the [translations](https://crowdin.com/project/pojavlauncher), or submit bug reports and feature requests.
-
-Any code change should be submitted as a pull request. The description should explain what the code does and give steps to execute it.
+See our [issue tracker](https://github.com/Omax64MXG4ming/Amethyst-Launcher/issues) for a list of known issues and their current status.
 
 ## Support
 
-For support, please join our [Discord server](https://discord.com/invite/aenk3EUvER).
+For support, please join our [Discord server](https://discord.gg/7e9Uq5Fj8a).
 
 ## License
 
@@ -87,4 +76,4 @@ Future plans include:
 * Improving stability and performance.
 * Enhancing the mod installation experience.
 
-We welcome community feedback and suggestions for our roadmap.  Please feel free to open a feature request in our [issue tracker](https://github.com/PojavLauncherTeam/PojavLauncher/issues).
+We welcome community feedback and suggestions for our roadmap.  Please feel free to open a feature request in our [issue tracker](https://github.com/Omax64MXG4ming/Amethyst-Launcher/issues)
